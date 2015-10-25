@@ -111,6 +111,7 @@ def edit_profile_admin(id):
     form.location.data = user.location
     form.about_me.data = user.about_me
     return render_template('edit_profile.html', form=form, user=user)
+<<<<<<< HEAD
 
 
 @main.route('/post/<int:id>', methods=['GET', 'POST'])
@@ -268,3 +269,5 @@ def moderate_disable(id):
     db.session.add(comment)
     return redirect(url_for('.moderate',
                             page=request.args.get('page', 1, type=int)))
+=======
+>>>>>>> parent of e593bfe... Chapter 11: Permanent links to posts (11g)

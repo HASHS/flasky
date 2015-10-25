@@ -38,6 +38,7 @@ div.post-content {
     margin-left: 48px;
     min-height: 48px;
 }
+<<<<<<< HEAD
 div.post-footer {
     text-align: right;
 }
@@ -73,6 +74,8 @@ div.comment-content {
 div.comment-form {
     margin: 16px 0px 16px 32px;
 }
+=======
+>>>>>>> parent of e593bfe... Chapter 11: Permanent links to posts (11g)
 div.pagination {
     width: 100%;
     text-align: right;
